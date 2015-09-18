@@ -82,5 +82,16 @@
 	`git clone https://github.com/fybc90/study` 在需要克隆目的目录下执行
 
     5.创建和合并分支
-    `git checkout -b dev` 【git checkout -b 分支名称】
-    6.删除分支
+    `git checkout -b dev` 【git checkout -b 分支名称】==创建分支并切换==
+    `git branch dev`【git branch 分株名称】==创建分支==
+    `git checkout dev` 【git checkout 分支名称】 ==切换分支==
+    `git branch` ==列出所有分支，并会在当前分支前面添加一个星号【*】==
+    `git merge dev`【git merge 分支名称】 ==合并分支到当前分支==
+    `git branch -d dev` 【git branch -d dev】 ==删除分支==
+
+    6.解决冲突
+    当合并有冲突时提示：
+    >merge conflict in readme.md
+automatic merge failed ;fix conflicts and then commit the result
+
+   Git 用`<<<<<,======,>>>>>`标记出不同的内容，需要手动修改文件后提交
