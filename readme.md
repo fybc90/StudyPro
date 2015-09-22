@@ -43,6 +43,7 @@
 	`git log` 查看历史记录 提交人(用户名、邮箱) 和提交时间
     `git log --pretty==online` 简单形式的历史记录只列出版本号及提交备注
     `git reflog` 查看全部日志
+    `git log --graph --pretty=oneline --abbrev-commit` 
 
 	6.查看变更
 	`git  diff readme.md` 【git diff 文件名】 可以列出文件修改内容
