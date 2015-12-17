@@ -1,5 +1,6 @@
-学习git
-=====
+Git学习
+标签（空格分隔）：版本控制
+
 * ####Git是什么
 	Git是目前世界上最先进的分布式版本控制系统
 
@@ -96,3 +97,8 @@
 automatic merge failed ;fix conflicts and then commit the result
 
    Git 用`<<<<<,======,>>>>>`标记出不同的内容，需要手动修改文件后提交
+   
+   ![此处输入图片的描述][1]
+
+
+  [1]: http://ww3.sinaimg.cn/large/843c8035gw1ez2p8c2nupj21cv2futua.jpg
